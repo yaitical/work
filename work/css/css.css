@@ -1,0 +1,246 @@
+/*通用类*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body {
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif;
+	background: #fff;
+	text-align: justify;
+	color: #010000;
+	position: relative;
+}
+h1, h2, h3 {
+	font-weight: 500;
+}
+img {
+	border: none;
+}
+a {
+	cursor: pointer;
+	color: #333;
+	text-decoration: none !important;
+	outline: none;
+}
+a:hover {
+	color: #006bb7;
+}
+ul {
+	list-style-type: none;
+}
+em {
+	font-style: normal;
+}
+.lt {
+	float: left;
+}
+.rt {
+	float: right;
+}
+input.sub, label {
+	border: none;
+	cursor: pointer;
+}
+input, textarea {
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif;
+	outline: none;
+}
+table {
+	border-collapse: collapse;
+}
+table td, table th {
+	padding: 0;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ color:#ccc;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {   /* Mozilla Firefox 19+ */
+ color:#ccc;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {    /* Mozilla Firefox 4 to 18 */
+ color:#ccc;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {  /* Internet Explorer 10-11 */
+ color:#ccc;
+}
+div.clear {
+	font: 0px Arial;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.head{
+	padding: 20px 25px;
+	border-bottom: 1px solid #ccc;
+}
+
+.head .logo{
+	float: left;
+}
+.head .logo2{
+	float: right;
+}
+.head .logo2 img{
+	height: 28px;
+	width: 28px;
+}
+
+.fp-box-1{
+	padding-top: 15px;
+	background-color: #FAFAFA;
+	padding-bottom: 50PX;border-bottom: 1px solid #ccc;
+}
+
+.box1 a{
+	display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+	
+	border-radius: 3px;
+	color: #007AFF;
+}
+.box1.rt a{
+	margin-left: 20px;
+}
+.box1.lt a{
+	margin-right: 20px;
+}
+.box1 a.a1{
+	background: url(../images/3.png) no-repeat left;
+	padding-left: 40px;
+	background-position-x: 20%;
+}
+
+.box1 a.a2{
+	background: url(../images/4.png) no-repeat left;
+	padding-left: 40px;
+	background-position-x: 20%;
+}
+
+.box1 a.a3{
+	background: url(../images/5.png) no-repeat left;
+	padding-left: 45px;
+	background-position-x: 20%;
+}
+
+.box1 a.a4{
+	background: url(../images/6.png) no-repeat left;
+	padding-left: 45px;
+	background-position-x: 20%;
+}
+
+.box1 span{
+	color: #5c5f62;
+	    display: inline-block;
+	    padding-right: 10px;
+		font-size: 16px;
+}
+
+.fp-box-2{
+	margin-top: -35px;
+	
+}
+
+.fp-box-2 .kuai{
+	box-shadow: 0px 1px 2.56px 1px rgba(0, 0, 0, 0.4);
+
+	background-color: #fff;
+	border-radius: 10px;
+}
+.head02{
+	padding: 10px 20px;
+	position: relative;border-bottom: 1px solid #ccc;
+}
+.head02 .op{
+	position: absolute;
+	top: 10px;
+	left: 45%;
+}
+.head02 a{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.head02 .left{
+	width: 50%;
+	
+}
+.head02 .ri{
+	width: 50%;
+	
+}
+
+.minn .left{
+	width: 50%;
+	float: left;
+}
+
+.minn .left input{
+	width: 100%;
+	border: none;
+	height: 40px;
+	margin-top: 30px;
+	padding-left: 40px;
+	margin-bottom: 100px;
+	font-size: 24px;
+	color: #878792;
+}
+
+.minn .left.rr{
+	width: 49%;
+	border-right: 1px solid #ccc;
+}
+
+.minn .left .im1{
+	padding: 20px ;
+}
+
+.minn .left .text{
+	float: right;
+	margin-top: 20px;
+	padding-right: 20px;
+	color: #878792;
+}
+.minn .left .text span{
+	display: inline-block;
+	padding-top: -20px;
+}
+ @media only screen and (max-width:1250px) {
+.main{
+	max-width: 1150px;
+	margin: 0 auto;
+}
+	
+}
+ @media only screen and (max-width: 1150px) {
+.main{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+}
+ @media only screen and (min-width: 1000px) {
+.main{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.head02 a {
+    display: inline-block;
+    padding: 0 10px;
+}
+}
